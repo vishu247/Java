@@ -12,7 +12,7 @@ import java.util.Collections;
 @Configuration
 public class ProjectSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    private static final String ALLOWED_HOST = "devtron.ai";
+    private static final String ALLOWED_HOST = "devtron.info";
 
     // @Override
     // protected void configure(HttpSecurity http) throws Exception {
