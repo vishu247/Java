@@ -29,7 +29,6 @@ public class ProjectSecurityConfig extends WebSecurityConfigurerAdapter {
     //     web.ignoring().antMatchers("/images/**");
     // }
 
-    @Override
     private boolean isFromAllowedHost(HttpServletRequest request) {
         return ALLOWED_HOST.equals(request.getRemoteHost());
     }
