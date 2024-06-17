@@ -20,7 +20,7 @@ spec:
         - containerPort: 8080
         env:
         - name: DATABASE_URL
-          value: "jdbc:mysql://mysql-service:3306/store_database"
+          value: "jdbc:mysql://java-db-devtron-demo-service.devtron-demo:3306/store_database"
         - name: DATABASE_USERNAME
           value: "dbuser"
         - name: DATABASE_PASSWORD
