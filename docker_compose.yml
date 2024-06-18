@@ -12,7 +12,7 @@ services:
     ports:
       - 8080:8080
     environment:
-      - DATABASE_URL=jdbc:mysql://java-db-ajay-test-service.ajay-test:3306/store_database
+      - DATABASE_URL=jdbc:mysql://java-db-devtron-demo-service.devtron-demo:8080/store_database
       - DATABASE_USERNAME=dbuser
       - DATABASE_PASSWORD=@YourPassword#
     depends_on:
